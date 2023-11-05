@@ -1,0 +1,244 @@
+body{
+    background-color: rgb(229, 238, 245);
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 83%;
+    margin-left: 180px;
+}
+.logo-part{
+    margin-left: 80px;
+}
+.logo{
+    background-color: whitesmoke;
+    width: 150px;
+    height: 50px;
+    margin-top: 10px;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.text-part{
+    margin-left: 20rem;
+}
+.text-part p{
+    font-size: x-large;
+    color: rgb(2, 2, 75);
+    font-weight: bolder;
+}
+.first-part{
+    display: flex;
+    flex-direction: column;
+}
+.first-div{
+    background-color: rgb(21, 209, 209);
+    width: 220px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(2, 2, 75);
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+.first-div div{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(2, 2, 75);
+    color: white;
+    margin-top: -5px;
+    margin-left: -10px;
+}
+.first-div p{
+    margin-top: 0px;
+    margin-left: 8px;
+    font-size: 16.5px;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+.first-div div p{
+    margin-top: 20px;
+    /* margin-left: 5px; */
+    text-align: center;
+}
+.graduate-div{
+    background-color: rgb(228, 190, 140);
+    width: 210px;
+    height: 210px;
+    border-radius: 105px;
+    margin-top: 60px;
+}
+.graduate-img{
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    padding-top: 30px;
+    padding-left: 65px;
+}
+.circle{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid black;
+    position: relative;
+    margin-top: -105px;
+    margin-left: 10px;
+}
+.img-text{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 100px;
+    color: rgb(2, 2, 75);
+}
+.name{
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 5px;
+    color: rgb(2, 2, 75);
+}
+.dots{
+    position: absolute;
+    font-size: xx-large;
+}
+.dot1{
+    margin-top: 50px;
+    margin-left: -23px;
+    rotate: 20deg;
+}
+.dot2{
+    margin-top: 110px;
+    margin-left: -47px;
+    rotate: 2deg;
+}
+.dot3{
+    margin-top: 180px;
+    margin-left: -47px;
+    rotate: -10deg;
+}
+.dot4{
+    margin-top: 230px;
+    margin-left: -22px;
+    rotate: -28deg;
+}
+.dot5{
+    margin-top: 50px;
+    margin-left: -88px;
+    rotate: -20deg;
+}
+.dot6{
+    margin-top: 110px;
+    margin-left: -55px;
+    rotate: -10deg;
+}
+.dot7{
+    margin-top: 180px;
+    margin-left: -60px;
+    rotate: 10deg;
+}
+.dot8{
+    margin-top: 230px;
+    margin-left: -83px;
+    rotate: 28deg;
+}
+.third-part{
+    direction: rtl;
+}
+.second-div{
+    background-color: aqua;
+    width: 220px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    color: rgb(2, 2, 75);
+    font-weight: bolder;
+    font-size: larger;
+    border-radius: 7px;
+    margin-top: 30px;
+}
+.second-div div{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(2, 2, 75);
+    color: white;
+    margin-top: -5px;
+    margin-right: -10px;
+}
+.second-div p{
+    margin-right: 50px;
+    font-size: 16.5px;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+.second-div div p{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.demo{
+    margin-right: 20px;
+    font-size: 13px;
+    line-height: 14px;
+}
+.demos{
+    margin-right: -10px;
+}
+.demos p{
+    text-align: center;
+}
+.list{
+    font-size: 15px;
+    line-height: 6px;
+    color: rgb(2, 2, 75);
+    font-weight: bolder;
+}
+.fourth-part{
+    margin-top: 145px;
+    margin-left: -80px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: -10px;
+}
+.first img{
+    width: 150px;
+    height: 120px;
+    margin-left: 50px;
+}
+.last img{
+    width: 100px;
+    height: 100px;
+}
+.middle{
+    text-align: center;
+    background-color: white;
+    color: rgb(2, 2, 75);
+    font-weight: bolder;
+    font-size: x-large;
+    width: 240px;
+    margin-top: -20px;
+    height: 120px;
+    margin-left: -30px;
+}
+.one{
+    line-height: 20px;
+    margin-top: 10px;
+}
+.two{
+    line-height: 20px;
+    margin-top: -10px;
+}
+span{
+    text-orientation: sideways;
+}
