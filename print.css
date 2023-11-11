@@ -1,0 +1,37 @@
+.nav{
+    gap: 10rem;
+    margin-left: -50px;
+}
+.text-part p{
+    margin-left: -120px;
+}
+.body{
+    justify-content: space-around;
+    width: 83%;
+    margin-left: 90px;
+    gap: 25px;
+}
+.footer{
+    justify-content: space-around;
+    width: 83%;
+    margin-left: 30px;
+    gap: 7rem;
+}
+.list{
+    font-size: small;
+    margin-left: 25px;
+    line-height: 15px;
+}
+.first-div{
+    width: 180px;
+}
+.first-div p{
+    font-size: small;
+}
+.second-div{
+    width: 180px;
+}
+.second-div p{
+    font-size: small;
+    margin-right: 20px;
+}

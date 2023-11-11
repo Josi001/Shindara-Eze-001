@@ -21,9 +21,7 @@ body{
     display: flex;
     flex-direction: row;
     width: 100%;
-}
-.text-part{
-    margin-left: 20rem;
+    gap: 15rem;
 }
 .text-part p{
     font-size: x-large;
